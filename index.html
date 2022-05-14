@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>raka Odin library🔮</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+  <form id='book-form' action="">
+    <input type="text" name="book-name" id="book-name" placeholder="書名">
+    <input type="text" name="author" id="author" placeholder="作者">
+    <input type="month" name="release-date" id="release-date">
+    <input type="range" name="expected" id="expected">期待值</input>
+    <input type="checkbox" name="read-yet" id="read-yet">讀過？</input>
+    <button id="new-book" type="submit">Add book</button>
+  </form>
+  <div id="library"></div>
+  <script src="app.js"></script>
+</body>
+
+</html>
